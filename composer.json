@@ -1,0 +1,25 @@
+{
+    "name": "thies4321/runescape-xp-calculator",
+    "type": "standard",
+    "description": "Runescape XP calculator written in PHP",
+    "homepage": "https://github.com/thies4321/runescape-xp-calculator",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RunescapeXpCalculator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RunescapeXpCalculator\\": "tests/"
+        }
+    },
+    "bin": ["bin/runescape-xp-calculator"],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10",
+        "psy/psysh": "@stable"
+    }
+}
